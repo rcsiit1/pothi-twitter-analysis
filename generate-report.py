@@ -3,10 +3,10 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 import json
 
-APP_KEY = 'ldcZqWf66J6zQk4XdDTo8LGxC'
-APP_SECRET = 'a4PnXYSDN9X9D1NNnhA6OqJIfR2UN4laEuk1iYryCVQLLYrCc9'
-access_token= '588161115-hbDsW0EpoOHv0uXmzoYrzEYMF0PMDvgO9pHPxsDc'
-access_token_secret ='LLwnmOcbqFkLzCQSM8niCU2kUbVxluZYIA9K9jMSmx77T'
+APP_KEY = ''
+APP_SECRET = ''
+access_token= ''
+access_token_secret =''
 
 #This is a basic listener that just prints received tweets to stdout.
 class StdOutListener(StreamListener):
